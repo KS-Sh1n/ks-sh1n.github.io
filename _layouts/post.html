@@ -13,30 +13,37 @@
     {% include head-custom.html %}
   </head>
   <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      <a href="{{ site.github.repository_url }}" class="btn">GitHub</a>
-      <a href="{{ site.twitter_url }}" class="btn">Twitter</a>
-      <a href="{{ site.github.repository_url }}" class="btn">GitHub</a>
-      <a href="{{ site.github.repository_url }}" class="btn">GitHub</a>
-      <a href="{{ site.github.repository_url }}" class="btn">GitHub</a>
-      <a href="{{ site.github.repository_url }}" class="btn">GitHub</a>
+      <h1 class="project-name">{{ page.title | default: "Title Placeholder" }}</h1>
+      <h3 class="project-desc">{{ page.description | default: "Description Placeholder" }}</h2>
+      <h5 class="project-cate">{{ page.cate | default: "Category Placeholder" }}</h5>
+      {% if page.is_project_page %}
+        <a href="{{ page.github.repository_url }}" class="btn">View on GitHub</a>
+      {% endif %}
+      {% if page.show_downloads %}
+        <a href="{{ page.github.zip_url }}" class="btn">Download .zip</a>
+        {% if page.linux_compatible %}
+          <a href="{{ page.github.tar_url }}" class="btn">Download .tar.gz</a>
+        {% endif %}
+      {% endif %}
     </header>
 
     <main id="content" class="main-content" role="main">
+      <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+      {{ content }}
+
+      <hr>
+
       <div id="home">
-        <h1>Blog Posts</h1>
+        <h1>Another Posts</h1>
         <ul class="posts">
           {% for post in site.posts %}
             <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
         </ul>
       </div>
-
-      {{ content }}
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}

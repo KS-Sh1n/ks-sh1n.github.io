@@ -1,7 +1,10 @@
 title: K. S. Shin
 description: Tomorrow will be better than today.
+repository_url: "https://github.com/KS-Sh1n/"
+twitter_url: "https://twitter.com"
+permalink: /:categories/:title/
 show_downloads: false
 google_analytics: ""
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+- jekyll-remote-theme # add this line to the plugins list if you already have one 
