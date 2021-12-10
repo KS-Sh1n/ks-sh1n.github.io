@@ -17,7 +17,7 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: "Title Placeholder" }}</h1>
       <h3 class="project-desc">{{ page.description | default: "Description Placeholder" }}</h2>
-      <h5 class="project-cate">{{ page.cate | default: "Category Placeholder" }}</h5>
+      <h4 class="project-cate">{{ page.date | date_to_string }} | {{ page.categories | default: "Category Placeholder" }} | {{ page.read_minutes }} minutes read</h4>
       {% if page.is_project_page %}
         <a href="{{ page.github.repository_url }}" class="btn">View on GitHub</a>
       {% endif %}
@@ -40,7 +40,7 @@
         <h1><b>Another Projects</b></h1>
         <ul class="posts">
           {% for post in site.posts %}
-            <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+            <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}"><b>{{ post.title }}</b></a></li>
           {% endfor %}
         </ul>
       </div>
