@@ -15,39 +15,29 @@
   <body>
 
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: "Title Placeholder" }}</h1>
-      <h3 class="project-desc">{{ page.description | default: "Description Placeholder" }}</h2>
-      <h5 class="project-cate">{{ page.cate | default: "Category Placeholder" }}</h5>
-      {% if page.is_project_page %}
-        <a href="{{ page.github.repository_url }}" class="btn">View on GitHub</a>
-      {% endif %}
-      {% if page.show_downloads %}
-        <a href="{{ page.github.zip_url }}" class="btn">Download .zip</a>
-        {% if page.linux_compatible %}
-          <a href="{{ page.github.tar_url }}" class="btn">Download .tar.gz</a>
-        {% endif %}
-      {% endif %}
+      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <h3 class="project-npost">{{ site.categories.data | size }} Projects</h3>
+      <!--https://stackoverflow.com/questions/12625113/total-number-of-posts-->
     </header>
 
     <main id="content" class="main-content" role="main">
-      <a id="skip-to-content" href="#content">Skip to the content.</a>
-
-      {{ content }}
-
-      <hr>
 
       <div id="home">
-        <h1><b>Another Projects</b></h1>
-        <ul class="posts">
-          {% for post in site.posts %}
-            <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+        <!--https://stackoverflow.com/questions/23914661/jekyll-liquid-get-all-pages-from-category-from-page-->
+        {% for cat in page.categories %}
+          <ul class="posts">
+            {% for post in site.categories[cat] %}
+              <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
           {% endfor %}
-        </ul>
-      </div>
+      </div>      
 
       <hr>
       <a href="/">Main Page</a>
 
+      
       <footer class="site-footer">
         {% if site.github.is_project_page %}
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
