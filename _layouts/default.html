@@ -18,16 +18,18 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       <a href="/about" class="about-btn">About Me</a><br>
+      <!--
       <a href="{{ site.github_url }}" class="btn">GitHub</a>
       <a href="{{ site.twitter_url }}" class="btn disabled">Twitter</a>
       <a href="{{ site.linkedin_url }}" class="btn">Linkedin</a>
       <a href="{{ site.facebook_url }}" class="btn disabled">Facebook</a>
       <a href="{{ site.instagram_url }}" class="btn disabled">Instagram</a>
+      -->
     </header>
 
     <main id="content" class="main-content" role="main">
       <div id="home">
-        <h1><b>Projects</b></h1>
+        <h1><b>Articles</b></h1>
         <ul class="posts">
           {% for post in site.posts %}
             <li><span>{{ post.date | date_to_string }} | <a href="/{{post.categories}}">{{post.categories}}</a></span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}"><b>{{ post.title }}</b></a></li>
