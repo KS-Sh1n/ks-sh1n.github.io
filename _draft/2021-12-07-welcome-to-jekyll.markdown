@@ -2,7 +2,7 @@
 layout: post
 title:  "데이콘 와인 데이터 경진대회"
 description: "Basic Data Analysis Competition for Dunmies."
-categories: data
+categories: competition
 read_minutes: 6
 is_project_page: false
 show_downloads: false
