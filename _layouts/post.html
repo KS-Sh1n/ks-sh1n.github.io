@@ -17,9 +17,9 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: "Title Placeholder" }}</h1>
       <h3 class="project-desc">{{ page.description | default: "Description Placeholder" }}</h2>
-      <h4 class="project-cate">{{ page.date | date_to_string }} | {{ page.categories | default: "Category Placeholder" }} | {{ page.read_minutes }} minutes read</h4>
+      <h4 class="project-cate">{{ page.date | date_to_string }} | {{ page.categories | default: "Category Placeholder" }}</h4>
       {% if page.is_project_page %}
-        <a href="{{ page.github.repository_url }}" class="btn">View on GitHub</a>
+        <a href="{{ page.project_repo }}" class="btn">View on GitHub</a>
       {% endif %}
       {% if page.show_downloads %}
         <a href="{{ page.github.zip_url }}" class="btn">Download .zip</a>
