@@ -67,7 +67,7 @@ Delta-Neutural을 잘 아는 분이라면 이 부분은 넘어가셔도 됩니�
 <img src = "https://www.dropbox.com/s/r5mkgsb3nnp81l9/2022-03-08-aperture-5.png?raw=1" style = "width:100%; object-fit: contain">
 
 　Private beta이기도 하고 개인 당 투자 금액을 100,000`$UST`까지 제한해 TVL이 그렇게 높지는 않습니다.
-　
+
 *(미장이 열려있을 때만 미국 주식 합성자산을 이용한 Delta-Neutural 포지션을 개설할 수 있습니다. 이는 `Mirror` 합성자산의 오라클 문제로 인한 것입니다. 자세한 정보는 Mirror Docs를 참고 바랍니다.)*
 
 <img src = "https://www.dropbox.com/s/w4ytljeedtayecv/2022-03-08-aperture-3.png?raw=1" style = "width:50%; object-fit: contain">
@@ -78,7 +78,13 @@ Delta-Neutural을 잘 아는 분이라면 이 부분은 넘어가셔도 됩니�
 　Stretegy Fee라는 것이 있는데, Delta-Neutural 전략으로 얻는 순 수익의 10%를 수수료로 가져갑니다. 예를 들어, 1,000`$UST`로 포지션을 열고 나중에 포지션을 닫았을 때 가치가 1,100`$UST`까지 올라갔다면, 순 이익인 100`$UST`의 10%인 10`$UST`를 떼가는 방식입니다.
 
 ## **3. Team and VCs**<a name="teamvc">
-　추가 예정
+<img src = "https://www.dropbox.com/s/6a8o8v2jxsfx2r4/2022-03-08-aperture-6.png?raw=1" style = "width:100%; object-fit: contain">
+###### Source: [Aperture Finance](https://aperture.finance/)
+
+<img src = "https://www.dropbox.com/s/svppcdfptbue1zw/2022-03-08-aperture-7.png?raw=1" style = "width:100%; object-fit: contain">
+###### Source: [Aperture Finance](https://aperture.finance/)
+
+투자자 목록에 도권이 있는 게 눈에 띄네요.
 
 ## **4. Verdict**<a name="verdict">
 > ### **기대되는 점**
