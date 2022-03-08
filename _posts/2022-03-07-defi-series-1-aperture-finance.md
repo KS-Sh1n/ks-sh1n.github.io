@@ -23,10 +23,11 @@ linux_compatible: false
 ## **1. About**<a name="about">
 > ### **Aperture Finance Summary**
 
-- Cross-Chain 지향 & 서로 다른 DeFi 네트워크를 seamless하게 연결
-- 현재는 테라 기반. 추후에 다른 체인으로 확장 예정 (?)
 - 실물 or 가상자산을 매개로 하는 Delta-Neutural 전략 제공
-- 추후에 거버넌스 토큰과 Aperture DAO 조성 예정
+- Cross-Chain 지향 & 서로 다른 DeFi 네트워크를 seamless하게 연결
+- Delta-Neutural 외에도 다른 전략 추가 예정
+- 커뮤니타 참여로 투자 전략을 짜고 이를 호스팅하는 app store 조성
+- 추후에 거버넌스 토큰과 Aperture DAO 조성
 
 > ### **Delta-Neutral?**
 Delta-Neutural을 잘 아는 분이라면 이 부분은 넘어가셔도 됩니다.
