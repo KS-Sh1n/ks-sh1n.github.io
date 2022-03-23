@@ -10,8 +10,8 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "For the Better Tomorrow"
-description:	       "Personal blog managed "
+title:		           "K. S. Shin"
+description:	       "For the Better Tomorrow"
 author:              "K. S. Shin"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
