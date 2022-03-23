@@ -31,3 +31,5 @@ pagination:
 sharing_button_prompt: 'Spread this feed!'
 related_posts: 'Another articles...'
 post_date_prefix: 'Written on: '
+
+cover:  "about.png"
