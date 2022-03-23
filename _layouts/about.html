@@ -12,6 +12,11 @@ title: about
       <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
     </div>
   {% endif %}
+  <div class="social-below-me" style="text-align: center;">
+    {% for item in site.data.settings.social %}
+    <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
+    {% endfor %}
+  </div>
   <article>
     {{ content }}
   </article>

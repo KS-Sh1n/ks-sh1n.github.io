@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Block by Block
+title: K. S. Shin
 permalink: /about
 image: pfp.gif
 ---
