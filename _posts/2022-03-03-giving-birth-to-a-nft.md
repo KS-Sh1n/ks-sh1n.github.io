@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Giving Birth to a NFT"
+date: "2022.03.03"
 author: "K. S. Shin"
 categories: dev
 tags: [dev, nft]

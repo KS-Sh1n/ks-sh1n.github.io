@@ -3,4 +3,5 @@ _draft
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+assets
 vendor

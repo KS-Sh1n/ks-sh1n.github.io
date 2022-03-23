@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "About Metaverse"
+date: "2022.02.10"
 author: "K. S. Shin"
 categories: thoughts
 tags: [thoughts]

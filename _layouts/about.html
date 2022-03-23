@@ -1,0 +1,18 @@
+---
+layout: default
+title: about
+---
+
+<div class="post-content">
+  <h1 style="text-align: center;">
+    {{ page.title }}
+  </h1>
+  {% if page.image %}
+    <div class="about-image">
+      <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
+    </div>
+  {% endif %}
+  <article>
+    {{ content }}
+  </article>
+</div>

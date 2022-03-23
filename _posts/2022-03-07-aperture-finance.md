@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "DeFi Series 1: Aperture Finance"
+title:  "Aperture Finance"
+date: "2022.03.07"
 author: "K. S. Shin"
 categories: defi
 tags: [defi]

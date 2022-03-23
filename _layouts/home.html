@@ -2,7 +2,12 @@
 layout: default
 title: Home
 ---
-
+<a href="{{ site.github.url }}about">
+  <div class="featured-post" style="background-image:url({{ site.github.url }}/assets/img/about.png)">
+    <h2><span>About Me</span></h2>
+  </div>
+</a>
+<h1 style="text-align: center; margin-bottom: 1rem;">Posts</h1>
 {% for post in paginator.posts %}
   {% include featured-post.html %}
 {% endfor %}
