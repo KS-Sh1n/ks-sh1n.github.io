@@ -1,23 +1,36 @@
----
-layout: default
-title: about
----
-
-<div class="post-content">
-  <h1 style="text-align: center;">
-    {{ page.title }}
-  </h1>
-  {% if page.image %}
-    <div class="about-image">
-      <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
+<!doctype html>
+<html>
+  {% include head.html %}
+  <body>
+    <div class="container">
+      {% include header.html %}
+      <div class="content-wrapper">
+        <div class="post-content">
+          <h1 style="text-align: center;">
+            {{ page.title }}
+          </h1>
+          {% if page.image %}
+            <div class="about-image">
+              <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
+            </div>
+          {% endif %}
+          <h3 style="text-align: center;">
+            {{ page.slogan }}
+          </h3>
+          <div class="social-below-me" style="text-align: center;">
+            {% for item in site.data.settings.social %}
+            <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
+            {% endfor %}
+          </div>
+          <article>
+            {{ content }}
+          </article>
+        </div>  
+      </div>
+      <footer class="footer">
+        <a href = "">Click here to see my detailed resume.</a>
+        <div class="footer-description"><a href="{{ site.github.url }}/">{{ site.title }} | Personal blog managed by {{ site.author }}</a></div>
+      </footer>      
     </div>
-  {% endif %}
-  <div class="social-below-me" style="text-align: center;">
-    {% for item in site.data.settings.social %}
-    <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
-    {% endfor %}
-  </div>
-  <article>
-    {{ content }}
-  </article>
-</div>
+  </body>
+</html>
