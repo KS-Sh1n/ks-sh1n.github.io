@@ -4,7 +4,7 @@ title:  "FPI & FPIS"
 author: "K. S. Shin"
 categories: defi
 tags: [defi]
-image: 0411_1.png
+image: 0414_1.png
 ---
 
 ### *취미생활방 서포터즈 활동으로 작성된 게시글입니다.
