@@ -7,9 +7,11 @@ slogan: To change something, do something.
 
 > ## **I'm in web3 business because...**
 
-　**I am certain that the whole web3 industry will be a great thing.** Web3 industry has become one of most promising businesses and one of greatest opportunities. It's like being a pioneer to the unknown field. It's also like building a complete nation based on blockchain. Uncertainties may lie ahead, but opportunities would be greater.
+　**I am certain that the whole web3 industry and underlying blockchain technology will be a great thing.** Web3 industry has become one of most promising businesses and one of greatest opportunities. It's like being a pioneer to the unknown field. It's also like building a complete nation based on blockchain. Uncertainties may lie ahead, but opportunities would be greater.
 
 　 **Blockchain technology has provided us a playground to build whatever we want and to play however we can.** Unique and entertaining atmosphere created on blockchain is attracting more people around the globe.
+
+　 **Blockchain technology has a potential to make our life more secure and efficient.** NFT enables a room to make identification process more smooth. DeFi can remove barriers founded by traditional institutes and make some financial transaction fast without hassle.
 
 　 Of course, I'm not saying that blockchain will change the world to the extent of destorying and reshaping everything. Blockchain itself also have problems, including forcing to fit blockchain to where is shouldn't be. **We should solve the problems and fit the blockchain to where it suits the most.**
 
