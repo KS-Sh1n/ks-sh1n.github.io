@@ -5,7 +5,7 @@ description: "What I've learned and realized for 4 months."
 author: "bemodest.eth"
 categories: thoughts
 tags: [thoughts]
-image: 0508_1.png
+image: ../assets/img/0508_1.png
 ---
 
 * * *

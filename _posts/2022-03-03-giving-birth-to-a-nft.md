@@ -5,7 +5,7 @@ description: "Developing NFT mint from scratch."
 author: "bemodest.eth"
 categories: dev
 tags: [dev, nft]
-image: 0303_1.png
+image: ../assets/img/0303_1.png
 ---
 
 * * *

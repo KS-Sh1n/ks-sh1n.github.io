@@ -5,7 +5,7 @@ description: "Is metaverse an illusion?"
 author: "bemodest.eth"
 categories: thoughts
 tags: [thoughts]
-image: 0210_1.png
+image: ../assets/img/0210_1.png
 ---
 
 * * *

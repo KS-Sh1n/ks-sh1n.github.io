@@ -5,7 +5,7 @@ description: "The rise and fall of the waves."
 author: "bemodest.eth"
 categories: defi
 tags: [defi]
-image: 0411_1.png
+image: ../assets/img/0411_1.png
 ---
 
 ### *취미생활방 서포터즈 활동으로 작성된 게시글입니다.

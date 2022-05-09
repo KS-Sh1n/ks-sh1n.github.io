@@ -5,7 +5,7 @@ description: "Leverage any assets, with some entertainment."
 author: "bemodest.eth"
 categories: defi
 tags: [defi]
-image: 0326_1.png
+image: ../assets/img/0326_1.png
 ---
 
 ### *취미생활방 서포터즈 활동으로 작성된 게시글입니다.
