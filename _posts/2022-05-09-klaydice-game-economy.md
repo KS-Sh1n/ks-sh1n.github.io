@@ -15,7 +15,7 @@ image: 0509_1.png
 • 기본 게임 플레이는 무료. Hero NFT를 가지고 게임을 해야 토큰을 얻을 수 있음
 
 ## 💡 [클레이다이스 경제](https://docs.klaydice.io/klaydice-p2e/p2e-system/token-economy)
-  ### **Hero NFT**
+  ### Hero NFT
 
 • Hero NFT를 가지고 게임을 하면 DIA 토큰을 획득 가능
 
@@ -23,7 +23,7 @@ image: 0509_1.png
 
 • 각 Hero NFT는 하루에 얻을 수 있는 DIA 상한이 존재
 
-  ### **Base NFT**
+  ### Base NFT
 
 • DICE로 구매 가능
 
@@ -31,7 +31,7 @@ image: 0509_1.png
 
 • Base NFT를 가지고 게임을 하면 CAST 토큰을 획득 가능
 
-  ### **Item NFT**
+  ### Item NFT
 
 • Base NFT를 통해 얻은 CAST로 구매 가능
 
