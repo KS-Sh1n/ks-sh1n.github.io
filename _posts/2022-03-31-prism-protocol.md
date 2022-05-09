@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Prism Protocol"
-author: "K. S. Shin"
+author: "bemodest.eth"
 categories: defi
 tags: [defi]
 image: 0331_1.png

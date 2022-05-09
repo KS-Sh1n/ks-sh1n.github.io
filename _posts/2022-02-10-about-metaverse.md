@@ -2,7 +2,7 @@
 layout: post
 title:  "About Metaverse"
 date: "2022.02.10"
-author: "K. S. Shin"
+author: "bemodest.eth"
 categories: thoughts
 tags: [thoughts]
 image: 0210_1.png

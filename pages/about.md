@@ -1,6 +1,6 @@
 ---
 layout: about
-title: K. S. Shin
+title: bemodest.eth
 permalink: /about
 slogan: To change something, do something.
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Levana Protocol"
-author: "K. S. Shin"
+author: "bemodest.eth"
 categories: defi
 tags: [defi]
 image: 0326_1.png

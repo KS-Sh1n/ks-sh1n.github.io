@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Anchor Protocol"
-author: "K. S. Shin"
+author: "bemodest.eth"
 categories: defi
 tags: [defi]
 image: 0312_1.png

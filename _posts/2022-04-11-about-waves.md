@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "About Waves"
-author: "K. S. Shin"
+author: "bemodest.eth"
 categories: defi
 tags: [defi]
 image: 0411_1.png

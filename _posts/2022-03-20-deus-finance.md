@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Deus Finance"
-author: "K. S. Shin"
+author: "bemodest.eth"
 categories: defi
 tags: [defi]
 image: 0320_1.png

@@ -2,7 +2,7 @@
 layout: post
 title: "Giving Birth to a NFT"
 date: "2022.03.03"
-author: "K. S. Shin"
+author: "bemodest.eth"
 categories: dev
 tags: [dev, nft]
 image: 0303_1.png

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Marblex Tokenomics"
-author: "K. S. Shin"
+author: "bemodest.eth"
 categories: defi
 tags: [defi]
 image: 0404_1.png
