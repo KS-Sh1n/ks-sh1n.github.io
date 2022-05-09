@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "About Metaverse"
-date: "2022.02.10"
+description: "Is metaverse an illusion?"
 author: "bemodest.eth"
 categories: thoughts
 tags: [thoughts]

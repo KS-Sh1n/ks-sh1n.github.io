@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Prism Protocol"
+description: "The new way to stake LUNA."
 author: "bemodest.eth"
 categories: defi
 tags: [defi]

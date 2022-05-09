@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Marblex Tokenomics"
-description: "D"
+description: "How Marblex will perform in terms of token distribution?"
 author: "bemodest.eth"
 categories: defi
 tags: [defi]

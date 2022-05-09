@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Giving Birth to a NFT"
-date: "2022.03.03"
+description: "Developing NFT mint from scratch."
 author: "bemodest.eth"
 categories: dev
 tags: [dev, nft]

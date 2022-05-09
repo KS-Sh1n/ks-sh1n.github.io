@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Deus Finance"
+description: "The oasis of barren Fantom ecosystem."
 author: "bemodest.eth"
 categories: defi
 tags: [defi]
@@ -11,20 +12,30 @@ image: 0320_1.png
 
 ## 🔎 개요
 • 팬텀 네트워크의 스테이블코인 프로젝트
+
 • 스테이블코인 DEI를 담보로 하는 합성자산 서비스 제공
+
 • DEUS를 활용한 서드 파티 어플리케이선 개발 환경 제공
 
 ## 🔎 DEI
 • Deus Finance의 알고리즘 기반 스테이블코인
-• 시가총액: ]약 $52m](https://ftmscan.com/token/0xde12c7959e1a72bbe8a5f7a1dc8f8eef9ab011b3)• 담보 구성: DEUS(약 20%) + 다른 스테이블코인(약 80%)의 부분 담보
+
+• 시가총액: [약 $52m](https://ftmscan.com/token/0xde12c7959e1a7bbe8a5f7a1dc8f8eef9ab011b3)
+
+• 담보 구성: DEUS(약 20%) + 다른 스테이블코인(약 80%)의 부분 담보
 
 ## 🔎 DEUS
 • Deus Finance의 부분적 가치를 나타내는 거버넌스 토큰
-• 시가총액: [약 $75m](https://ftmscan.com/token/0xde5ed76e7c05ec5e4572cfc88d1acea165109e44)• DEI를 구매하면 소각되고, DEI를 판매하면 생성됨
+
+• 시가총액: [약 $75m](https://ftmscan.com/token/0xde5ed76e7c05ec5e4572cfc88d1acea165109e44)
+
+• DEI를 구매하면 소각되고, DEI를 판매하면 생성됨
 
 ## 🔎 Deus DAO
 • DEI를 주축으로 하는 생태계
+
 • [Muon Network](https://www.muon.net/)(크로스 체인 솔루션), [dsynths](https://app.dsynths.com/trade)(합성자산) 등을 포함
+
 • 비전: 진입 장벽을 없애 모든 유저가 전 세계의 모든 금융 자산을 모든 레버리지 수단을 통해서 거래하는 시장을 제공하는 것.
 
 ## 💡 이슈

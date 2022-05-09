@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Levana Protocol"
+description: "Leverage any assets, with some entertainment."
 author: "bemodest.eth"
 categories: defi
 tags: [defi]

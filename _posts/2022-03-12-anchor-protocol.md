@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Anchor Protocol"
+description: "How long will anchor survive?"
 author: "bemodest.eth"
 categories: defi
 tags: [defi]
