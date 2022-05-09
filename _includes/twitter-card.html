@@ -1,10 +1,10 @@
 {% if page.title == "Home" %}
-<meta name="twitter:title" content="{{ site.title }}">
+<meta name="twitter:title" content="bemodest.eth">
 <meta name="twitter:description" content="{{ site.description }}">
-<meta name="twitter:image" content="url({{ site.github.url }}/assets/img/about.png">
+<meta name="twitter:image" content="({{ site.github.url }}/assets/img/about.png">
 {% else %}
 <meta name="twitter:title" content="{{ page.title }}">
 <meta name="twitter:description" content="{{ page.description }}">
 <meta name="twitter:image" content="{{ page.image }}">
 {% endif %}
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content=""{{ site.github.url }}/assets/img/{{ page.image }}">
