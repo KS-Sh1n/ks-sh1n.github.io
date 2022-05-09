@@ -6,13 +6,10 @@
       {{ page.title }} | {{ site.title }}
     {% endif %}
   </title>
+  <script>
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
-  <!--Display Large Twitter Card-->
-  <meta name="twitter:title" content={{ page.title }}>
-  <meta name="twitter:description" content={{ page.description }}>
-  <meta name="twitter:image" content={{ page.image }}>
-  <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="{{ site.github.url }}/assets/css/main.css">
   <link rel="stylesheet" href="{{ site.github.url }}/assets/css/syntax.css">
   <!-- Use Atom -->
@@ -25,6 +22,8 @@
   <script type="text/javascript" async
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
   </script>
+  <!-- Twitter Card -->
+  {% include twitter-card.html.html %}
   <!-- Google Analytics -->
   {% include google-analytics.html %}
   <!-- Use Jekyll SEO plugin -->
