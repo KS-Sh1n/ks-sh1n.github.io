@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Marblex Tokenomics"
+description: "D"
 author: "bemodest.eth"
 categories: defi
 tags: [defi]
