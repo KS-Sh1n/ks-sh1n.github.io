@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Reflect: on a Bear Market"
+title:  "Reflection: on a Bear Market"
 author: "bemodest.eth"
 categories: thoughts
 tags: [thoughts]
