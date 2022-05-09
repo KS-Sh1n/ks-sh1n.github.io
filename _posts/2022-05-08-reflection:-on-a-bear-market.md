@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Reflection: on a Bear Market"
+description: "What I've learned and realized for 4 months."
 author: "bemodest.eth"
 categories: thoughts
 tags: [thoughts]

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Aperture Finance"
+description: "One of the best deposit-and-forget protocols."
 author: "bemodest.eth"
 categories: defi
 tags: [defi]

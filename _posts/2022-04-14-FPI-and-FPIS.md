@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "FPI & FPIS"
+description: "Stablecoin that grows along with an inflation."
 author: "bemodest.eth"
 categories: defi
 tags: [defi]
