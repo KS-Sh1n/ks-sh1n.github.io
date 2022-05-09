@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "About Waves"
-description: "Stablecoin that grows along with an inflation."
+description: "The rise and fall of the waves."
 author: "bemodest.eth"
 categories: defi
 tags: [defi]
