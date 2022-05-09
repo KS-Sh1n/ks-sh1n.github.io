@@ -10,7 +10,7 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "For the Better Tomorrow"
+title:		           "bemodest.eth"
 description:	       "For the Better Tomorrow"
 author:              "bemodest.eth"
 
