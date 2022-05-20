@@ -7,6 +7,7 @@
   position: relative;
 }
 .featured-post h2 {
+  color: white;
   bottom: 0;
   margin: 10px;
   position: absolute;
@@ -16,10 +17,13 @@
   background: rgb(0, 0, 0); /* fallback color */
   background: rgba(0, 0, 0, 0.7);
   padding: 10px;
-  color: white;
 }
 .featured-post h1 {
   margin: 10px;
+}
+.featured-post a {
+  margin: 10px;
+  color: white;
 }
 .about-desc {
   padding: 1rem;
