@@ -9,17 +9,17 @@ google-ID: 'G-P95LLKJLSB'
 menu:
 - {name: 'About',       url: 'about'}
 - {name: 'Development', url: 'dev'}
-- {name: 'NFT',         url: 'nft'}
+- {name: 'Games',         url: 'games'}
 - {name: 'DeFi',        url: 'defi'}
 - {name: 'Thoughts',    url: 'thoughts'}
-- {name: 'Readings',    url: 'readings'}
+- {name: 'Threads',    url: 'threads'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
 - {icon: 'twitter', link:    'https://twitter.com/bemodestdoteth'}
-# - {icon: 'facebook', link:   'https://www.facebook.com/paululele'}
-# - {icon: 'instagram', link:  'https://instagram.com/paululele'}
+- {icon: 'instagram', link:  'https://www.instagram.com/bemosest.eth/'}
 - {icon: 'envelope', link:   'sksoup3819@gmail.com'}
+# - {icon: 'facebook', link:   'https://www.facebook.com/paululele'}
 # - {icon: 'rss-square', link: 'feed.xml'}
 # - {icon: 'rss-square', link: 'rss-feed.xml'}
 

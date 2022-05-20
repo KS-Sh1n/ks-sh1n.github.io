@@ -3,8 +3,8 @@ layout: post
 title:  "Klaydice Game Economy"
 description: "A model that fights with an inflation."
 author: "bemodest.eth"
-categories: defi
-tags: [defi]
+categories: games
+tags: [games]
 image: ../assets/img/0509_1.png
 ---
 
