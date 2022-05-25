@@ -1,12 +1,19 @@
-title: K. S. Shin
-description: Tomorrow will be better than today.
-github_url: https://github.com/KS-Sh1n
-twitter_url: https://twitter.com/korean_bluefrog
-linkedin_url: https://t.ly/920P
-facebook_url: ""
-instagram_url: ""
-permalink: /:categories/:title/
-google_analytics: ""
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one 
+# Site Build Settings
+
+# jekyll-paginate configuration
+paginate:            10
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           /:title
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+title:		           "bemodest.eth"
+description:	       "For the Better Tomorrow"
+author:              "bemodest.eth"
+
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#  path: rss-feed.xml

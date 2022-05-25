@@ -1,12 +1,11 @@
 ---
 layout: post
 title:  "About Metaverse"
-description: "메타버스의 본질을 찾아 나서는 여정"
+description: "Is metaverse an illusion?"
+author: "bemodest.eth"
 categories: thoughts
-read_minutes: 10
-is_project_page: false
-show_downloads: false
-linux_compatible: false
+tags: [thoughts]
+image: ../assets/img/0210_1.png
 ---
 
 * * *

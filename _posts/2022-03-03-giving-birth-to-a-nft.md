@@ -1,13 +1,11 @@
 ---
 layout: post
 title: "Giving Birth to a NFT"
-description: "문과생의 NFT 개발 도전 후기"
-categories: development
-read_minutes: 5
-is_project_page: true
-project_repo: "https://github.com/KS-Sh1n/leoleo_nft"
-show_downloads: false
-linux_compatible: false
+description: "Developing NFT mint from scratch."
+author: "bemodest.eth"
+categories: dev
+tags: [dev, nft]
+image: ../assets/img/0303_1.png
 ---
 
 * * *

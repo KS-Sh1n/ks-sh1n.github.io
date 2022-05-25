@@ -1,0 +1,15 @@
+<article>
+  {% if post.link %}
+  <a href="{{ post.link }}" target="_blank" >
+    <div class="featured-post" {% if post.image %}style="background-image:url({{ post.image }})"{% endif %}>
+      <h2><span>{{ post.date | date_to_string }}<br>{{ post.title }}</span></h2>
+    </div>
+  </a>
+  {% else %}
+  <a href="{{ site.github.url }}{{ post.url }}">
+    <div class="featured-post" {% if post.image %}style="background-image:url({{ post.image }})"{% endif %}>
+      <h2><span>{{ post.date | date_to_string }}<br>{{ post.title }}</span></h2>
+    </div>
+  </a>
+  {% endif %}
+</article>
